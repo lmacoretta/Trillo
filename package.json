@@ -1,0 +1,17 @@
+{
+  "name": "Trillo",
+  "version": "1.0.0",
+  "description": "Trillo app",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "author": "Leandro",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2"
+  }
+}
